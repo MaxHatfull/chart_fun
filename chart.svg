@@ -81,6 +81,52 @@
       3028
     </text>
 
+    <line x1="100" y1="900" x2="100" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="100" x2="100" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="185" y1="900" x2="185" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="185" y1="100" x2="185" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="270" y1="900" x2="270" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="270" y1="100" x2="270" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="355" y1="900" x2="355" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="355" y1="100" x2="355" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="440" y1="900" x2="440" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="440" y1="100" x2="440" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="525" y1="900" x2="525" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="525" y1="100" x2="525" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="610" y1="900" x2="610" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="610" y1="100" x2="610" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="695" y1="900" x2="695" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="695" y1="100" x2="695" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="780" y1="900" x2="780" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="780" y1="100" x2="780" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="865" y1="900" x2="865" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="865" y1="100" x2="865" y2="900" style="stroke:white;stroke-width:1"/>
+    <line x1="950" y1="900" x2="950" y2="910" style="stroke:white;stroke-width:2"/>
+    <line x1="950" y1="100" x2="950" y2="900" style="stroke:white;stroke-width:1"/>
+
+    <line x1="100" y1="100" x2="90" y2="100" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="100" x2="950" y2="100" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="180" x2="90" y2="180" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="180" x2="950" y2="180" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="260" x2="90" y2="260" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="260" x2="950" y2="260" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="340" x2="90" y2="340" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="340" x2="950" y2="340" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="420" x2="90" y2="420" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="420" x2="950" y2="420" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="500" x2="90" y2="500" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="500" x2="950" y2="500" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="580" x2="90" y2="580" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="580" x2="950" y2="580" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="660" x2="90" y2="660" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="660" x2="950" y2="660" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="740" x2="90" y2="740" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="740" x2="950" y2="740" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="820" x2="90" y2="820" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="820" x2="950" y2="820" style="stroke:white;stroke-width:1"/>
+    <line x1="100" y1="900" x2="90" y2="900" style="stroke:white;stroke-width:2"/>
+    <line x1="100" y1="900" x2="950" y2="900" style="stroke:white;stroke-width:1"/>
+
     <circle cx="950" cy="900" r="3" fill="white"/>
     <circle cx="942" cy="900" r="3" fill="white"/>
     <circle cx="934" cy="845" r="3" fill="white"/>
