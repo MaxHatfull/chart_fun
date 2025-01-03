@@ -208,5 +208,8 @@
     <circle cx="107" cy="100" r="3" fill="white"/>
     <circle cx="100" cy="100" r="3" fill="white"/>
 
-    <line x1="100" y1="95.00978058639927" x2="950" y2="968.6502938270221" style="stroke:white;stroke-width:2"/>
+    <mask id="mask">
+      <rect x="100" y="100" width="850" height="800" fill="white"/>
+    </mask>
+      <line x1="100" y1="95.00978058639927" x2="950" y2="968.6502938270221" style="stroke:white;stroke-width:2" mask="url(#mask)"/>
 </svg>

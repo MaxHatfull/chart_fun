@@ -44,6 +44,9 @@
   <% end %>
 
   <% if @trend_line %>
-    <line x1="<%= trend_line_points[0][0] %>" y1="<%= trend_line_points[0][1] %>" x2="<%= trend_line_points[1][0] %>" y2="<%= trend_line_points[1][1] %>" style="stroke:white;stroke-width:2"/>
+    <mask id="mask">
+      <rect x="<%= plot_area[:left] %>" y="<%= plot_area[:top] %>" width="<%= plot_area[:width] %>" height="<%= plot_area[:height] %>" fill="white"/>
+    </mask>
+      <line x1="<%= trend_line_points[0][0] %>" y1="<%= trend_line_points[0][1] %>" x2="<%= trend_line_points[1][0] %>" y2="<%= trend_line_points[1][1] %>" style="stroke:white;stroke-width:2" mask="url(#mask)"/>
   <% end %>
 </svg>

@@ -69,7 +69,9 @@ class ScatterPlot
     left = @y_axis_options&.key?(:title) ? 100 : 50
     right = 950
     bottom = @x_axis_options&.key?(:title) ? 900 : 950
-    { top:, left:, right:, bottom: }
+    width = right - left
+    height = bottom - top
+    { top:, left:, right:, bottom:, width:, height: }
   end
 
   def point_positions
