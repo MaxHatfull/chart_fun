@@ -90,7 +90,7 @@ class Plot
         interpolate(x.value, min_x.value, max_x.value, plot_area[:left], plot_area[:right]),
         interpolate(y.value, min_y.value, max_y.value, plot_area[:bottom], plot_area[:top])
       ]
-    end
+    end.sort_by(&:first)
   end
 
   def interpolate(value, fromLow, fromHigh, toLow, toHigh)
