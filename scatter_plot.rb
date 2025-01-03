@@ -20,6 +20,11 @@ class ScatterPlot
     self
   end
 
+  def trend_line
+    @trend_line = true
+    self
+  end
+
   def to_svg
     @x_axis = Axis.new(
       min_x,
@@ -42,6 +47,19 @@ class ScatterPlot
     )
 
     eval(Erubi::Engine.new(File.read('chart.svg.erb')).src)
+  end
+
+  def trend_line_points
+    x_values = point_positions.map(&:first)
+    y_values = point_positions.map(&:last)
+    x_mean = x_values.sum / x_values.size.to_f
+    y_mean = y_values.sum / y_values.size.to_f
+    slope = x_values.zip(y_values).map { |x, y| (x - x_mean) * (y - y_mean) }.sum / x_values.map { |x| (x - x_mean) ** 2 }.sum
+    intercept = y_mean - slope * x_mean
+    [
+      [plot_area[:left], slope * plot_area[:left] + intercept],
+      [plot_area[:right], slope * plot_area[:right] + intercept]
+    ]
   end
 
   private

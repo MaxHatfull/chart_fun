@@ -11,6 +11,7 @@ output = ScatterPlot
            .title("Legacy JS Lines of Code")
            .x_axis(title: "Date", count: 6)
            .y_axis(title: "Lines of Code", count: 10)
+           .trend_line
            .to_svg
 File.write("chart.svg", output)
 
