@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ScatterPlot
+class Plot
   def initialize(data)
     @data = data.map { |line| [DataValue.new(line[0]), DataValue.new(line[1])] }
   end
