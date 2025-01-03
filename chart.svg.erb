@@ -2,7 +2,7 @@
   <line x1="<%= plot_area[:left] %>" y1="<%= plot_area[:bottom] %>" x2="<%= plot_area[:right] %>" y2="<%= plot_area[:bottom] %>" style="stroke:white;stroke-width:2"/>
   <line x1="<%= plot_area[:left] %>" y1="<%= plot_area[:bottom] %>" x2="<%= plot_area[:left] %>" y2="<%= plot_area[:top] %>" style="stroke:white;stroke-width:2"/>
 
-  <% (x_axis_labels + y_axis_labels).each do |label| %>
+  <% (x_axis.labels + y_axis.labels).each do |label| %>
     <text x="<%= label[:x] %>" y="<%= label[:y] %>" fill="white" dominant-baseline="middle" text-anchor="middle">
       <%= label[:text] %>
     </text>

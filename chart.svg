@@ -35,37 +35,37 @@
     <text x="950" y="975" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-12-12
     </text>
-    <text x="25" y="950" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="50" fill="white" dominant-baseline="middle" text-anchor="middle">
       1187
     </text>
-    <text x="25" y="860" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="140" fill="white" dominant-baseline="middle" text-anchor="middle">
       1371
     </text>
-    <text x="25" y="770" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="230" fill="white" dominant-baseline="middle" text-anchor="middle">
       1555
     </text>
-    <text x="25" y="680" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="320" fill="white" dominant-baseline="middle" text-anchor="middle">
       1739
     </text>
-    <text x="25" y="590" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="410" fill="white" dominant-baseline="middle" text-anchor="middle">
       1923
     </text>
     <text x="25" y="500" fill="white" dominant-baseline="middle" text-anchor="middle">
       2107
     </text>
-    <text x="25" y="410" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="590" fill="white" dominant-baseline="middle" text-anchor="middle">
       2291
     </text>
-    <text x="25" y="320" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="680" fill="white" dominant-baseline="middle" text-anchor="middle">
       2475
     </text>
-    <text x="25" y="230" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="770" fill="white" dominant-baseline="middle" text-anchor="middle">
       2659
     </text>
-    <text x="25" y="140" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="860" fill="white" dominant-baseline="middle" text-anchor="middle">
       2843
     </text>
-    <text x="25" y="50" fill="white" dominant-baseline="middle" text-anchor="middle">
+    <text x="25" y="950" fill="white" dominant-baseline="middle" text-anchor="middle">
       3028
     </text>
 
@@ -117,64 +117,64 @@
     <circle cx="575" cy="667" r="3" fill="white"/>
     <circle cx="566" cy="667" r="3" fill="white"/>
     <circle cx="558" cy="667" r="3" fill="white"/>
-    <circle cx="549" cy="667" r="3" fill="white"/>
+    <circle cx="550" cy="667" r="3" fill="white"/>
     <circle cx="541" cy="622" r="3" fill="white"/>
     <circle cx="533" cy="604" r="3" fill="white"/>
-    <circle cx="524" cy="604" r="3" fill="white"/>
+    <circle cx="525" cy="604" r="3" fill="white"/>
     <circle cx="516" cy="608" r="3" fill="white"/>
     <circle cx="508" cy="608" r="3" fill="white"/>
-    <circle cx="499" cy="608" r="3" fill="white"/>
+    <circle cx="500" cy="608" r="3" fill="white"/>
     <circle cx="491" cy="608" r="3" fill="white"/>
     <circle cx="483" cy="576" r="3" fill="white"/>
-    <circle cx="474" cy="576" r="3" fill="white"/>
+    <circle cx="475" cy="576" r="3" fill="white"/>
     <circle cx="466" cy="526" r="3" fill="white"/>
     <circle cx="458" cy="526" r="3" fill="white"/>
-    <circle cx="449" cy="526" r="3" fill="white"/>
+    <circle cx="450" cy="526" r="3" fill="white"/>
     <circle cx="441" cy="526" r="3" fill="white"/>
     <circle cx="433" cy="526" r="3" fill="white"/>
-    <circle cx="424" cy="526" r="3" fill="white"/>
+    <circle cx="425" cy="526" r="3" fill="white"/>
     <circle cx="416" cy="489" r="3" fill="white"/>
     <circle cx="408" cy="489" r="3" fill="white"/>
-    <circle cx="399" cy="489" r="3" fill="white"/>
+    <circle cx="400" cy="489" r="3" fill="white"/>
     <circle cx="391" cy="342" r="3" fill="white"/>
     <circle cx="383" cy="342" r="3" fill="white"/>
-    <circle cx="374" cy="342" r="3" fill="white"/>
+    <circle cx="375" cy="342" r="3" fill="white"/>
     <circle cx="366" cy="342" r="3" fill="white"/>
     <circle cx="358" cy="342" r="3" fill="white"/>
-    <circle cx="349" cy="275" r="3" fill="white"/>
+    <circle cx="350" cy="275" r="3" fill="white"/>
     <circle cx="341" cy="275" r="3" fill="white"/>
     <circle cx="333" cy="275" r="3" fill="white"/>
-    <circle cx="324" cy="275" r="3" fill="white"/>
+    <circle cx="325" cy="275" r="3" fill="white"/>
     <circle cx="316" cy="275" r="3" fill="white"/>
     <circle cx="308" cy="275" r="3" fill="white"/>
-    <circle cx="299" cy="275" r="3" fill="white"/>
+    <circle cx="300" cy="275" r="3" fill="white"/>
     <circle cx="291" cy="198" r="3" fill="white"/>
     <circle cx="283" cy="198" r="3" fill="white"/>
-    <circle cx="274" cy="198" r="3" fill="white"/>
+    <circle cx="275" cy="198" r="3" fill="white"/>
     <circle cx="266" cy="198" r="3" fill="white"/>
     <circle cx="258" cy="198" r="3" fill="white"/>
-    <circle cx="249" cy="198" r="3" fill="white"/>
+    <circle cx="250" cy="198" r="3" fill="white"/>
     <circle cx="241" cy="198" r="3" fill="white"/>
     <circle cx="233" cy="198" r="3" fill="white"/>
-    <circle cx="224" cy="198" r="3" fill="white"/>
+    <circle cx="225" cy="198" r="3" fill="white"/>
     <circle cx="216" cy="198" r="3" fill="white"/>
     <circle cx="208" cy="198" r="3" fill="white"/>
-    <circle cx="199" cy="198" r="3" fill="white"/>
+    <circle cx="200" cy="198" r="3" fill="white"/>
     <circle cx="191" cy="198" r="3" fill="white"/>
     <circle cx="183" cy="198" r="3" fill="white"/>
-    <circle cx="174" cy="198" r="3" fill="white"/>
+    <circle cx="175" cy="198" r="3" fill="white"/>
     <circle cx="166" cy="198" r="3" fill="white"/>
     <circle cx="158" cy="198" r="3" fill="white"/>
-    <circle cx="149" cy="198" r="3" fill="white"/>
+    <circle cx="150" cy="198" r="3" fill="white"/>
     <circle cx="141" cy="198" r="3" fill="white"/>
     <circle cx="133" cy="198" r="3" fill="white"/>
-    <circle cx="124" cy="169" r="3" fill="white"/>
+    <circle cx="125" cy="169" r="3" fill="white"/>
     <circle cx="116" cy="85" r="3" fill="white"/>
     <circle cx="108" cy="85" r="3" fill="white"/>
-    <circle cx="99" cy="85" r="3" fill="white"/>
+    <circle cx="100" cy="85" r="3" fill="white"/>
     <circle cx="91" cy="85" r="3" fill="white"/>
     <circle cx="83" cy="85" r="3" fill="white"/>
-    <circle cx="74" cy="85" r="3" fill="white"/>
+    <circle cx="75" cy="85" r="3" fill="white"/>
     <circle cx="66" cy="85" r="3" fill="white"/>
     <circle cx="58" cy="50" r="3" fill="white"/>
     <circle cx="50" cy="50" r="3" fill="white"/>
