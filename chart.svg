@@ -1,40 +1,6 @@
 <svg height="1000" width="1000" xmlns="http://www.w3.org/2000/svg">
   <line x1="50" y1="950" x2="950" y2="950" style="stroke:white;stroke-width:2"/>
-  <line x1="50" y1="50" x2="50" y2="950" style="stroke:white;stroke-width:2"/>
-
-    <text x="25" y="950" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1187
-    </text>
-    <text x="25" y="860" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1371
-    </text>
-    <text x="25" y="770" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1555
-    </text>
-    <text x="25" y="680" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1739
-    </text>
-    <text x="25" y="590" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1923
-    </text>
-    <text x="25" y="500" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2107
-    </text>
-    <text x="25" y="410" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2291
-    </text>
-    <text x="25" y="320" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2475
-    </text>
-    <text x="25" y="230" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2659
-    </text>
-    <text x="25" y="140" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2843
-    </text>
-    <text x="25" y="50" fill="white" dominant-baseline="middle" text-anchor="middle">
-      3028
-    </text>
+  <line x1="50" y1="950" x2="50" y2="50" style="stroke:white;stroke-width:2"/>
 
     <text x="50" y="975" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-08-26
@@ -68,6 +34,39 @@
     </text>
     <text x="950" y="975" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-12-12
+    </text>
+    <text x="25" y="950" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1187
+    </text>
+    <text x="25" y="860" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1371
+    </text>
+    <text x="25" y="770" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1555
+    </text>
+    <text x="25" y="680" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1739
+    </text>
+    <text x="25" y="590" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1923
+    </text>
+    <text x="25" y="500" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2107
+    </text>
+    <text x="25" y="410" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2291
+    </text>
+    <text x="25" y="320" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2475
+    </text>
+    <text x="25" y="230" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2659
+    </text>
+    <text x="25" y="140" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2843
+    </text>
+    <text x="25" y="50" fill="white" dominant-baseline="middle" text-anchor="middle">
+      3028
     </text>
 
     <circle cx="950" cy="950" r="3" fill="white"/>
@@ -179,5 +178,4 @@
     <circle cx="66" cy="85" r="3" fill="white"/>
     <circle cx="58" cy="50" r="3" fill="white"/>
     <circle cx="50" cy="50" r="3" fill="white"/>
-
   </svg>

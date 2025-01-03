@@ -1,26 +1,14 @@
 <svg height="1000" width="1000" xmlns="http://www.w3.org/2000/svg">
-  <line x1="50" y1="950" x2="950" y2="950" style="stroke:white;stroke-width:2"/>
-  <line x1="50" y1="50" x2="50" y2="950" style="stroke:white;stroke-width:2"/>
+  <line x1="<%= plot_area[:left] %>" y1="<%= plot_area[:bottom] %>" x2="<%= plot_area[:right] %>" y2="<%= plot_area[:bottom] %>" style="stroke:white;stroke-width:2"/>
+  <line x1="<%= plot_area[:left] %>" y1="<%= plot_area[:bottom] %>" x2="<%= plot_area[:left] %>" y2="<%= plot_area[:top] %>" style="stroke:white;stroke-width:2"/>
 
-  <% 0.upto(10) do |i| %>
-    <% y = 950 - (90 * i) %>
-    <text x="25" y="<%= y %>" fill="white" dominant-baseline="middle" text-anchor="middle">
-      <%= interpolate(i, 0, 10, min_y, max_y) %>
+  <% (x_axis_labels + y_axis_labels).each do |label| %>
+    <text x="<%= label[:x] %>" y="<%= label[:y] %>" fill="white" dominant-baseline="middle" text-anchor="middle">
+      <%= label[:text] %>
     </text>
   <% end %>
 
-  <% 0.upto(10) do |i| %>
-    <% x = 50 + (90 * i) %>
-    <text x="<%= x %>" y="975" fill="white" dominant-baseline="middle" text-anchor="middle">
-      <%= Time.at(interpolate(i, 0, 10, min_x, max_x)).to_date %>
-    </text>
-  <% end %>
-
-  <% data.each do |x, y| %>
-    <% x_int = Date.parse(x).to_time.to_i %>
-    <% x = interpolate(x_int, min_x, max_x, 50, 950) %>
-    <% y = interpolate(y.to_i, max_y, min_y, 50, 950) %>
+  <% point_positions.each do |x, y| %>
     <circle cx="<%= x %>" cy="<%= y %>" r="3" fill="white"/>
   <% end %>
-
   </svg>
