@@ -56,7 +56,8 @@ class Plot
       @y_axis_options[:grid_lines]
     )
 
-    eval(Erubi::Engine.new(File.read('chart.svg.erb')).src)
+    template = File.read(File.join(__dir__, 'chart.svg.erb'))
+    eval(Erubi::Engine.new(template).src)
   end
 
   def trend_line_points
