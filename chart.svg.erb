@@ -3,30 +3,37 @@
     <%= @title %>
   </text>
 
-  <text x="500" y="975" fill="white" dominant-baseline="middle" text-anchor="middle" font-size="30">
-    <%= @x_title %>
-  </text>
+  <% [@x_axis, @y_axis].compact.each do |axis| %>
+    <line x1="<%= axis.start_point[:x] %>" y1="<%= axis.start_point[:y] %>" x2="<%= axis.end_point[:x] %>" y2="<%= axis.end_point[:y] %>" style="stroke:white;stroke-width:2"/>
 
-  <text x="25" y="500" fill="white" dominant-baseline="middle" text-anchor="middle" font-size="30" transform="rotate(-90 25,500)">
-    <%= @y_title %>
-  </text>
+    <% axis.labels.each do |label| %>
+      <text x="<%= label[:x] %>" y="<%= label[:y] %>" fill="white" dominant-baseline="middle" text-anchor="middle">
+        <%= label[:text] %>
+      </text>
+    <% end %>
+  <% end %>
 
-  <line x1="<%= plot_area[:left] %>" y1="<%= plot_area[:bottom] %>" x2="<%= plot_area[:right] %>" y2="<%= plot_area[:bottom] %>" style="stroke:white;stroke-width:2"/>
-  <line x1="<%= plot_area[:left] %>" y1="<%= plot_area[:bottom] %>" x2="<%= plot_area[:left] %>" y2="<%= plot_area[:top] %>" style="stroke:white;stroke-width:2"/>
-
-  <% (x_axis.labels + y_axis.labels).each do |label| %>
-    <text x="<%= label[:x] %>" y="<%= label[:y] %>" fill="white" dominant-baseline="middle" text-anchor="middle">
-      <%= label[:text] %>
+  <% if @x_axis&.title %>
+    <text x="<%= @x_axis.title_pos[:x] %>" y="<%= @x_axis.title_pos[:y] %>" fill="white" dominant-baseline="middle" text-anchor="middle" font-size="30">
+      <%= @x_axis.title %>
     </text>
   <% end %>
 
-  <% if @grid_lines %>
-    <% x_axis.labels.each do |label| %>
+  <% if @y_axis&.title %>
+    <text x="<%= @y_axis.title_pos[:x] %>" y="<%= @y_axis.title_pos[:y] %>" fill="white" dominant-baseline="middle" text-anchor="middle" font-size="30" transform="rotate(-90 <%= @y_axis.title_pos[:x] %> <%= @y_axis.title_pos[:y] %>)">
+      <%= @y_axis.title %>
+    </text>
+  <% end %>
+
+  <% if @x_axis&.grid_lines %>
+    <% @x_axis.labels.each do |label| %>
       <line x1="<%= label[:x] %>" y1="<%= plot_area[:bottom] %>" x2="<%= label[:x] %>" y2="<%= plot_area[:bottom] + 10 %>" style="stroke:white;stroke-width:2"/>
       <line x1="<%= label[:x] %>" y1="<%= plot_area[:top] %>" x2="<%= label[:x] %>" y2="<%= plot_area[:bottom] %>" style="stroke:white;stroke-width:1"/>
     <% end %>
+  <% end %>
 
-    <% y_axis.labels.each do |label| %>
+  <% if @y_axis&.grid_lines %>
+    <% @y_axis.labels.each do |label| %>
       <line x1="<%= plot_area[:left] %>" y1="<%= label[:y] %>" x2="<%= plot_area[:left] - 10 %>" y2="<%= label[:y] %>" style="stroke:white;stroke-width:2"/>
       <line x1="<%= plot_area[:left] %>" y1="<%= label[:y] %>" x2="<%= plot_area[:right] %>" y2="<%= label[:y] %>" style="stroke:white;stroke-width:1"/>
     <% end %>
