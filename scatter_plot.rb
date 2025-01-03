@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ScatterPlot
-  def initialize(data, title, x_title, y_title)
+  def initialize(data, title: nil, x_title: nil, y_title: nil)
     @data = data.map { |line| [DataValue.new(line[0]), DataValue.new(line[1])] }
     @title = title
     @x_title = x_title
@@ -15,9 +15,11 @@ class ScatterPlot
   private
 
   def plot_area
-    {
-      top: 150, right: 950, bottom: 890, left: 120
-    }
+    top = @title ? 100 : 50
+    left = @y_title ? 100 : 50
+    right = 950
+    bottom = @x_title ? 900 : 950
+    { top:, left:, right:, bottom: }
   end
 
   def x_axis
