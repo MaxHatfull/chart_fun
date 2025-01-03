@@ -1,8 +1,8 @@
 require "erubi"
 require 'date'
-require_relative 'plot'
-require_relative 'data_value'
-require_relative 'axis'
+require_relative 'src/plot'
+require_relative 'src/data_value'
+require_relative 'src/axis'
 
 data = File.readlines("data.csv", chomp: true).map { |line| line.split(",") }
 
