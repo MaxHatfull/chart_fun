@@ -10,8 +10,8 @@ output = Plot.new(data)
                     #.scatter
                     .line
                     .title("Legacy JS Lines of Code")
-                    .x_axis(title: "Date", count: 6)
-                    .y_axis(title: "Lines of Code", count: 10)
+                    .x_axis(title: "Date", count: 7)
+                    .y_axis(title: "Lines of Code", count: 10, grid_lines: false)
                     .trend_line
                     .to_svg
 File.write("chart.svg", output)

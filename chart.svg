@@ -8,17 +8,20 @@
       <text x="100.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
         2024-08-26
       </text>
-      <text x="270.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
-        2024-09-16
+      <text x="241.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
+        2024-09-13
       </text>
-      <text x="440.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
-        2024-10-08
+      <text x="383.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
+        2024-10-01
       </text>
-      <text x="610.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
-        2024-10-29
+      <text x="525.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
+        2024-10-19
       </text>
-      <text x="780.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
-        2024-11-20
+      <text x="666.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
+        2024-11-06
+      </text>
+      <text x="808.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
+        2024-11-24
       </text>
       <text x="950.0" y="925.0" fill="white" dominant-baseline="middle" text-anchor="middle">
         2024-12-12
@@ -66,37 +69,19 @@
 
       <line x1="100.0" y1="900" x2="100.0" y2="910" style="stroke:white;stroke-width:2"/>
       <line x1="100.0" y1="100" x2="100.0" y2="900" style="stroke:white;stroke-width:1"/>
-      <line x1="270.0" y1="900" x2="270.0" y2="910" style="stroke:white;stroke-width:2"/>
-      <line x1="270.0" y1="100" x2="270.0" y2="900" style="stroke:white;stroke-width:1"/>
-      <line x1="440.0" y1="900" x2="440.0" y2="910" style="stroke:white;stroke-width:2"/>
-      <line x1="440.0" y1="100" x2="440.0" y2="900" style="stroke:white;stroke-width:1"/>
-      <line x1="610.0" y1="900" x2="610.0" y2="910" style="stroke:white;stroke-width:2"/>
-      <line x1="610.0" y1="100" x2="610.0" y2="900" style="stroke:white;stroke-width:1"/>
-      <line x1="780.0" y1="900" x2="780.0" y2="910" style="stroke:white;stroke-width:2"/>
-      <line x1="780.0" y1="100" x2="780.0" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="241.0" y1="900" x2="241.0" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="241.0" y1="100" x2="241.0" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="383.0" y1="900" x2="383.0" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="383.0" y1="100" x2="383.0" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="525.0" y1="900" x2="525.0" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="525.0" y1="100" x2="525.0" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="666.0" y1="900" x2="666.0" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="666.0" y1="100" x2="666.0" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="808.0" y1="900" x2="808.0" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="808.0" y1="100" x2="808.0" y2="900" style="stroke:white;stroke-width:1"/>
       <line x1="950.0" y1="900" x2="950.0" y2="910" style="stroke:white;stroke-width:2"/>
       <line x1="950.0" y1="100" x2="950.0" y2="900" style="stroke:white;stroke-width:1"/>
 
-      <line x1="100" y1="100.0" x2="90" y2="100.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="100.0" x2="950" y2="100.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="188.0" x2="90" y2="188.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="188.0" x2="950" y2="188.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="277.0" x2="90" y2="277.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="277.0" x2="950" y2="277.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="366.0" x2="90" y2="366.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="366.0" x2="950" y2="366.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="455.0" x2="90" y2="455.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="455.0" x2="950" y2="455.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="544.0" x2="90" y2="544.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="544.0" x2="950" y2="544.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="633.0" x2="90" y2="633.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="633.0" x2="950" y2="633.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="722.0" x2="90" y2="722.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="722.0" x2="950" y2="722.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="811.0" x2="90" y2="811.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="811.0" x2="950" y2="811.0" style="stroke:white;stroke-width:1"/>
-      <line x1="100" y1="900.0" x2="90" y2="900.0" style="stroke:white;stroke-width:2"/>
-      <line x1="100" y1="900.0" x2="950" y2="900.0" style="stroke:white;stroke-width:1"/>
 
 
       <line x1="100" y1="100" x2="107" y2="100" style="stroke:white;stroke-width:2"/>
