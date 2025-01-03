@@ -20,17 +20,19 @@
     </text>
   <% end %>
 
-  <% x_axis.labels.each do |label| %>
-    <line x1="<%= label[:x] %>" y1="<%= plot_area[:bottom] %>" x2="<%= label[:x] %>" y2="<%= plot_area[:bottom] + 10 %>" style="stroke:white;stroke-width:2"/>
-    <line x1="<%= label[:x] %>" y1="<%= plot_area[:top] %>" x2="<%= label[:x] %>" y2="<%= plot_area[:bottom] %>" style="stroke:white;stroke-width:1"/>
-  <% end %>
+  <% if @grid_lines %>
+    <% x_axis.labels.each do |label| %>
+      <line x1="<%= label[:x] %>" y1="<%= plot_area[:bottom] %>" x2="<%= label[:x] %>" y2="<%= plot_area[:bottom] + 10 %>" style="stroke:white;stroke-width:2"/>
+      <line x1="<%= label[:x] %>" y1="<%= plot_area[:top] %>" x2="<%= label[:x] %>" y2="<%= plot_area[:bottom] %>" style="stroke:white;stroke-width:1"/>
+    <% end %>
 
-  <% y_axis.labels.each do |label| %>
-    <line x1="<%= plot_area[:left] %>" y1="<%= label[:y] %>" x2="<%= plot_area[:left] - 10 %>" y2="<%= label[:y] %>" style="stroke:white;stroke-width:2"/>
-    <line x1="<%= plot_area[:left] %>" y1="<%= label[:y] %>" x2="<%= plot_area[:right] %>" y2="<%= label[:y] %>" style="stroke:white;stroke-width:1"/>
+    <% y_axis.labels.each do |label| %>
+      <line x1="<%= plot_area[:left] %>" y1="<%= label[:y] %>" x2="<%= plot_area[:left] - 10 %>" y2="<%= label[:y] %>" style="stroke:white;stroke-width:2"/>
+      <line x1="<%= plot_area[:left] %>" y1="<%= label[:y] %>" x2="<%= plot_area[:right] %>" y2="<%= label[:y] %>" style="stroke:white;stroke-width:1"/>
+    <% end %>
   <% end %>
 
   <% point_positions.each do |x, y| %>
     <circle cx="<%= x %>" cy="<%= y %>" r="3" fill="white"/>
   <% end %>
-  </svg>
+</svg>

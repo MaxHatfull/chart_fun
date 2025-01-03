@@ -1,11 +1,13 @@
 # frozen_string_literal: true
 
 class ScatterPlot
-  def initialize(data, title: nil, x_title: nil, y_title: nil)
+  def initialize(data, title: nil, x_title: nil, y_title: nil, grid_lines: true, axis_count: [10, 10])
     @data = data.map { |line| [DataValue.new(line[0]), DataValue.new(line[1])] }
     @title = title
     @x_title = x_title
     @y_title = y_title
+    @grid_lines = grid_lines
+    @axis_count = axis_count
   end
 
   def to_svg
@@ -27,7 +29,8 @@ class ScatterPlot
       min_x,
       max_x,
       { x: plot_area[:left], y: plot_area[:bottom] + 25 },
-      { x: plot_area[:right], y: plot_area[:bottom] + 25 }
+      { x: plot_area[:right], y: plot_area[:bottom] + 25 },
+      @axis_count[0]
     )
   end
 
@@ -36,7 +39,8 @@ class ScatterPlot
       min_y,
       max_y,
       { x: plot_area[:left] - 25, y: plot_area[:top] },
-      { x: plot_area[:left] - 25, y: plot_area[:bottom] }
+      { x: plot_area[:left] - 25, y: plot_area[:bottom] },
+      @axis_count[1]
     )
   end
 

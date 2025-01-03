@@ -10,7 +10,9 @@ output = ScatterPlot
            .new(data,
                 title: "Legacy JS lines",
                 x_title: "Date",
-                y_title: "Lines"
+                y_title: "Lines",
+                grid_lines: true,
+                axis_count: [6, 10]
            ).to_svg
 File.write("chart.svg", output)
 

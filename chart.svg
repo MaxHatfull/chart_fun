@@ -17,32 +17,17 @@
     <text x="100" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-08-26
     </text>
-    <text x="185" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2024-09-05
-    </text>
     <text x="270" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-09-16
-    </text>
-    <text x="355" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2024-09-27
     </text>
     <text x="440" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-10-08
     </text>
-    <text x="525" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2024-10-19
-    </text>
     <text x="610" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-10-29
     </text>
-    <text x="695" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2024-11-09
-    </text>
     <text x="780" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-11-20
-    </text>
-    <text x="865" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2024-12-01
     </text>
     <text x="950" y="925" fill="white" dominant-baseline="middle" text-anchor="middle">
       2024-12-12
@@ -50,82 +35,67 @@
     <text x="75" y="100" fill="white" dominant-baseline="middle" text-anchor="middle">
       1187
     </text>
-    <text x="75" y="180" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1371
+    <text x="75" y="188" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1391
     </text>
-    <text x="75" y="260" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1555
+    <text x="75" y="277" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1596
     </text>
-    <text x="75" y="340" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1739
+    <text x="75" y="366" fill="white" dominant-baseline="middle" text-anchor="middle">
+      1800
     </text>
-    <text x="75" y="420" fill="white" dominant-baseline="middle" text-anchor="middle">
-      1923
+    <text x="75" y="455" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2005
     </text>
-    <text x="75" y="500" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2107
+    <text x="75" y="544" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2209
     </text>
-    <text x="75" y="580" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2291
+    <text x="75" y="633" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2414
     </text>
-    <text x="75" y="660" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2475
+    <text x="75" y="722" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2618
     </text>
-    <text x="75" y="740" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2659
-    </text>
-    <text x="75" y="820" fill="white" dominant-baseline="middle" text-anchor="middle">
-      2843
+    <text x="75" y="811" fill="white" dominant-baseline="middle" text-anchor="middle">
+      2823
     </text>
     <text x="75" y="900" fill="white" dominant-baseline="middle" text-anchor="middle">
       3028
     </text>
 
-    <line x1="100" y1="900" x2="100" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="100" x2="100" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="185" y1="900" x2="185" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="185" y1="100" x2="185" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="270" y1="900" x2="270" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="270" y1="100" x2="270" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="355" y1="900" x2="355" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="355" y1="100" x2="355" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="440" y1="900" x2="440" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="440" y1="100" x2="440" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="525" y1="900" x2="525" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="525" y1="100" x2="525" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="610" y1="900" x2="610" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="610" y1="100" x2="610" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="695" y1="900" x2="695" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="695" y1="100" x2="695" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="780" y1="900" x2="780" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="780" y1="100" x2="780" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="865" y1="900" x2="865" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="865" y1="100" x2="865" y2="900" style="stroke:white;stroke-width:1"/>
-    <line x1="950" y1="900" x2="950" y2="910" style="stroke:white;stroke-width:2"/>
-    <line x1="950" y1="100" x2="950" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="900" x2="100" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="100" x2="100" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="270" y1="900" x2="270" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="270" y1="100" x2="270" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="440" y1="900" x2="440" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="440" y1="100" x2="440" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="610" y1="900" x2="610" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="610" y1="100" x2="610" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="780" y1="900" x2="780" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="780" y1="100" x2="780" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="950" y1="900" x2="950" y2="910" style="stroke:white;stroke-width:2"/>
+      <line x1="950" y1="100" x2="950" y2="900" style="stroke:white;stroke-width:1"/>
 
-    <line x1="100" y1="100" x2="90" y2="100" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="100" x2="950" y2="100" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="180" x2="90" y2="180" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="180" x2="950" y2="180" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="260" x2="90" y2="260" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="260" x2="950" y2="260" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="340" x2="90" y2="340" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="340" x2="950" y2="340" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="420" x2="90" y2="420" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="420" x2="950" y2="420" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="500" x2="90" y2="500" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="500" x2="950" y2="500" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="580" x2="90" y2="580" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="580" x2="950" y2="580" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="660" x2="90" y2="660" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="660" x2="950" y2="660" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="740" x2="90" y2="740" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="740" x2="950" y2="740" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="820" x2="90" y2="820" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="820" x2="950" y2="820" style="stroke:white;stroke-width:1"/>
-    <line x1="100" y1="900" x2="90" y2="900" style="stroke:white;stroke-width:2"/>
-    <line x1="100" y1="900" x2="950" y2="900" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="100" x2="90" y2="100" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="100" x2="950" y2="100" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="188" x2="90" y2="188" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="188" x2="950" y2="188" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="277" x2="90" y2="277" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="277" x2="950" y2="277" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="366" x2="90" y2="366" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="366" x2="950" y2="366" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="455" x2="90" y2="455" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="455" x2="950" y2="455" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="544" x2="90" y2="544" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="544" x2="950" y2="544" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="633" x2="90" y2="633" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="633" x2="950" y2="633" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="722" x2="90" y2="722" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="722" x2="950" y2="722" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="811" x2="90" y2="811" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="811" x2="950" y2="811" style="stroke:white;stroke-width:1"/>
+      <line x1="100" y1="900" x2="90" y2="900" style="stroke:white;stroke-width:2"/>
+      <line x1="100" y1="900" x2="950" y2="900" style="stroke:white;stroke-width:1"/>
 
     <circle cx="950" cy="900" r="3" fill="white"/>
     <circle cx="942" cy="900" r="3" fill="white"/>
@@ -236,4 +206,4 @@
     <circle cx="115" cy="131" r="3" fill="white"/>
     <circle cx="107" cy="100" r="3" fill="white"/>
     <circle cx="100" cy="100" r="3" fill="white"/>
-  </svg>
+</svg>
