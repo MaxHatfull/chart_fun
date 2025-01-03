@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class Plot
-  def initialize(data)
+  def initialize(data, height: 1000, width: 1000)
+    @height = height
+    @width = width
     @data = data.map { |line| [DataValue.new(line[0]), DataValue.new(line[1])] }
   end
 
@@ -78,8 +80,8 @@ class Plot
   def plot_area
     top = @title ? 100 : 50
     left = @y_axis_options&.key?(:title) ? 100 : 50
-    right = 950
-    bottom = @x_axis_options&.key?(:title) ? 900 : 950
+    right = @width - 50
+    bottom = @x_axis_options&.key?(:title) ? @height - 100 : @height - 50
     width = right - left
     height = bottom - top
     { top:, left:, right:, bottom:, width:, height: }
