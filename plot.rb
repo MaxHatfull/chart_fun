@@ -47,8 +47,8 @@ class Plot
     )
 
     @y_axis = Axis.new(
-      min_y,
       max_y,
+      min_y,
       { x: plot_area[:left], y: plot_area[:top] },
       { x: plot_area[:left], y: plot_area[:bottom] },
       @y_axis_options[:count],
