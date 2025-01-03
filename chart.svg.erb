@@ -39,14 +39,22 @@
     <% end %>
   <% end %>
 
-  <% point_positions.each do |x, y| %>
-    <circle cx="<%= x %>" cy="<%= y %>" r="3" fill="white"/>
+  <% if @scatter %>
+    <% point_positions.each do |x, y| %>
+      <circle cx="<%= x %>" cy="<%= y %>" r="3" fill="white"/>
+    <% end %>
+  <% end %>
+
+  <% if @line %>
+    <% point_positions.each_cons(2) do |(x1, y1), (x2, y2)| %>
+      <line x1="<%= x1 %>" y1="<%= y1 %>" x2="<%= x2 %>" y2="<%= y2 %>" style="stroke:white;stroke-width:2"/>
+    <% end %>
   <% end %>
 
   <% if @trend_line %>
-    <mask id="mask">
+    <mask id="plot_area">
       <rect x="<%= plot_area[:left] %>" y="<%= plot_area[:top] %>" width="<%= plot_area[:width] %>" height="<%= plot_area[:height] %>" fill="white"/>
     </mask>
-      <line x1="<%= trend_line_points[0][0] %>" y1="<%= trend_line_points[0][1] %>" x2="<%= trend_line_points[1][0] %>" y2="<%= trend_line_points[1][1] %>" style="stroke:white;stroke-width:2" mask="url(#mask)"/>
+    <line x1="<%= trend_line_points[0][0] %>" y1="<%= trend_line_points[0][1] %>" x2="<%= trend_line_points[1][0] %>" y2="<%= trend_line_points[1][1] %>" style="stroke:white;stroke-width:2" mask="url(#plot_area)"/>
   <% end %>
 </svg>

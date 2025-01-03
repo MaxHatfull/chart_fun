@@ -1,8 +1,18 @@
 # frozen_string_literal: true
 
 class ScatterPlot
-  def initialize(data, grid_lines: true)
+  def initialize(data)
     @data = data.map { |line| [DataValue.new(line[0]), DataValue.new(line[1])] }
+  end
+
+  def scatter
+    @scatter = true
+    self
+  end
+
+  def line
+    @line = true
+    self
   end
 
   def title(title)
